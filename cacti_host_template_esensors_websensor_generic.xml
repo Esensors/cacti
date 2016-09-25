@@ -749,7 +749,7 @@
 	<hash_03002565e9715fec9c982b661c4ae70c27cac8>
 		<name>Esensors Websensor - Get Sensor</name>
 		<type_id>1</type_id>
-		<input_string>perl &lt;path_cacti&gt;/scripts/esensors-read-sensor.pl --host &lt;host&gt; --port 4248 --url /status.xml --sensor &lt;sensor&gt;</input_string>
+		<input_string>perl &lt;path_cacti&gt;/scripts/esensors-read-sensor.pl --host &lt;host&gt; --port 80 --url /status.xml --sensor &lt;sensor&gt;</input_string>
 		<fields>
 			<hash_0700258421a9db7896f88f1d5245744d1350d4>
 				<name>Hostname or IP address</name>
