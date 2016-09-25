@@ -1,5 +1,14 @@
 # Esensors Websensor Plugin and Templates for Cacti
 
+  * [Esensors Websensor Plugin and Templates for Cacti](#esensors-websensor-plugin-and-templates-for-cacti)
+    * [Configuring Cacti](#configuring-cacti)
+      * [Plugin](#plugin)
+      * [Templates](#templates)
+      * [Custom Port and URL settings](#custom-port-and-url-settings)
+      * [Creating graphs](#creating-graphs)
+      * [Attaching websensor to Graph Tree](#attaching-websensor-to-graph-tree)
+    * [Investigating issues](#investigating-issues)
+
 ## Configuring Cacti
 There're two distinct entities which should downloaded and configured
 in Cacti so that you could graph your device:
@@ -35,13 +44,13 @@ Once you have installed the plugin and templates you can create graphs
 for your device and start gathering statistics:
 * under `Management -> Devices` choose "Add" link
 * fill-in required fields
-** Description - give a meaningful description such as `My new Websensor`
-** Hostname - specify hostname or ip address of the device (make sure that device
-is accessible using the value specified from the cacti server)
-** Host Template - choose "Esensors Websensor (Generic)"
-** Downed Device Detection - choose "None"
-** SNMP Version - choose "Not In Use"
-** Push "Create" button (bottom right of the screen)
+  * Description - give a meaningful description such as `My new Websensor`
+  * Hostname - specify hostname or ip address of the device (make sure that device
+    is accessible using the value specified from the cacti server)
+  * Host Template - choose "Esensors Websensor (Generic)"
+  * Downed Device Detection - choose "None"
+  * SNMP Version - choose "Not In Use"
+  * Push "Create" button (bottom right of the screen)
 
 Once you've succeeded creating new device (got "Save Successful." message
 at the top of the screen), continue to creating graphs by following
